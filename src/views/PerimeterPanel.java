@@ -1,5 +1,7 @@
+package views;
+
 /*
-* File: App.java
+* File: PerimeterPanel.java
 * Author: Sánta Renáta Diána
 * Copyright: 2022, Sánta Renáta Diána
 * Group: Szoft II N
@@ -9,10 +11,10 @@
 */
 
 
-import controllers.MainController;
+import lan.santa.InputPanel;
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        new MainController();
+public class PerimeterPanel extends InputPanel {
+    public PerimeterPanel(){
+        this.setText("Kerület");
     }
 }

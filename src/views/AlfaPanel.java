@@ -1,5 +1,5 @@
 /*
-* File: App.java
+* File: AlfaPanel.java
 * Author: Sánta Renáta Diána
 * Copyright: 2022, Sánta Renáta Diána
 * Group: Szoft II N
@@ -9,10 +9,12 @@
 */
 
 
-import controllers.MainController;
+package views;
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        new MainController();
+import lan.santa.InputPanel;
+
+public class AlfaPanel extends InputPanel {
+    public AlfaPanel(){
+        this.setText("Alfa szög");
     }
 }
